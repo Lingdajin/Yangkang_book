@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class='top_tip'>
+        <view class="welcome">欢迎您来到阳康宝典</view>
+        <view class="welcome">但一个账号是必不可少的</view>
+        <form catchsubmit="onSubmit">
+            <view class='login'>
+            
+                <view class="user">用户名
+                    <view class="hold"><input class="input" name='username' type='text' placeholder='请输入用户名'></input></view>
+                </view>
+                <view class="password">密码
+                    <view class="hold2"><input class="input" name='password' password placeholder='请输入密码'></input></view>
+                </view>
+                <view class="confirm">请确认
+                    <view class="hold"><input class="input" name='confirm_password' password placeholder='请重复密码'></input></view>
+                </view>
+        </view>
+            <button style="width:80vw" class="click" plain="true" type="default" form-type='submit'>注册</button>
+        </form>
+</view>
+    <view class="reg" bindtap="toLogin">已有账号？</view>

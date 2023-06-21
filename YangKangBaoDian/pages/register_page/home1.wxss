@@ -1,0 +1,87 @@
+page{
+    background-color: #EFEFEF;
+  }
+
+
+.top_tip{
+    margin-top: 20%;
+}
+
+.welcome{
+    font-size: 65rpx;
+    margin-left: 5%;
+}
+
+.login{
+    margin-left: 10%;
+}
+
+.user{
+    display: flex;
+    margin-top: 50rpx;
+    height:75rpx;
+    font-size:50rpx
+}
+
+.password{
+    display: flex;
+    margin-top: 20rpx;
+    height:75rpx;
+    font-size:50rpx
+}
+
+.confirm{
+    display: flex;
+    margin-top: 20rpx;
+    height:75rpx;
+    font-size:50rpx
+}
+
+.hold{
+    margin-left:10rpx;
+    margin-top: 20rpx;
+    margin-bottom: 0rpx;
+    outline: thick;
+    outline-style: auto;
+    font-size:45rpx;
+    height: 75rpx;
+    background:white;
+    width: 70%;
+    height: 40rpx
+}
+
+.hold2{
+    margin-left:60rpx;
+    margin-top: 20rpx;
+    margin-bottom: 0rpx;
+    outline: thick;
+    outline-style: auto;
+    font-size:45rpx;
+    height: 75rpx;
+    background:white;
+    width: 70%;
+    height: 40rpx
+}
+
+.input{
+    margin-bottom: 0rpx;
+}
+
+.click{
+
+    height:100rpx;
+    border-radius:10rpx;
+    margin:auto;
+    margin-top:70rpx;
+    background-color: #00aeff;
+    text-align: center;
+    font-size: 50rpx;
+  }
+
+.reg{
+    font-size: 30rpx;
+    color: rgb(0, 119, 255);
+    text-align: right;
+    margin-top: 10rpx;
+    margin-right: 10rpx;
+}

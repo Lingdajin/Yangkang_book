@@ -1,0 +1,41 @@
+<!--pages/demo02/text/text.wxml-->
+<view class='tiezi'>
+
+    <view class='demo-box'>
+        <view class="Theauthor">{{author}}</view>
+        <view style="display: flex;">
+            <view class="Thetitle">{{title}}</view>
+            <mp-icon style="margin-right: 20rpx;" type="field" icon="delete" color="red" size="{{20}}" bindtap= 'delete'></mp-icon>
+        </view>
+        <view class="line"></view>
+        <view class="Thesummary">{{summary}}</view>
+    </view>
+
+    <!-- 分割线 -->
+    <view class="view_fengexian">
+	    <view ></view>
+	    <text class="text_fengexian">评论</text>
+	    <view ></view>
+    </view>
+
+    <!-- 评论区 -->
+    <view class="comment-list">
+    <block wx:for="{{array}}" wx:key="index">
+        <view class="line"></view>
+        <view class="comment-item">
+            <view class="comment-author">{{item.author}}</view>
+            <view style="display: flex;">
+                <view class="comment-content">{{item.comment}}</view>
+                <mp-icon style="margin-right: 20rpx;" type="outline" icon="delete" color="black" size="{{20}}" bindtap= 'deleteComment' data-index="{{item.id}}"></mp-icon>
+            </view>
+        </view>
+    </block>
+  </view>
+</view>
+
+<!-- 底部发送评论栏 -->
+  <view class="col">
+    <view class="search"><input confirm-type="done" placeholder="发一条友善的评论~" placeholder-class="input" class="input" bindinput="bindText"></input></view>
+    <view class="sendButton" bindtap="send">发送</view>
+  </view>
+

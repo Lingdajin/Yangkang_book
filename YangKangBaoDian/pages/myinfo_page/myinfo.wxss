@@ -1,0 +1,36 @@
+/* pages/mine/mine.wxss */
+page{
+    background-color: #EFEFEF;
+  }
+  
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.hello{
+    font-size: x-large;
+    font-weight: 1000;
+    font-style:oblique;
+    margin-bottom: 10%;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+  font-size: x-large;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 15%;
+}

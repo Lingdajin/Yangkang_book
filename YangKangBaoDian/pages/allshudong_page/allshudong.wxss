@@ -1,0 +1,42 @@
+/* pages/demo02/text/text.wxss */
+page{
+    background-color: #EFEFEF;
+  }
+/* text{
+    margin: 15rpx;
+    padding: 15rpx;
+    border: 1rpx solid silver;
+    display: block;
+    font-size: 10pt;
+  } */
+
+  .line{
+    width:100%;
+    height:2rpx;
+    background:#aaa;
+    }
+
+.comment-item {
+    margin-bottom: 10rpx;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10rpx;
+}
+
+.comment-list {
+    margin-top: 20rpx;
+    margin-bottom: 50rpx;
+}
+
+.Oneauthor {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20rpx;
+    color: blue;
+}
+  
+.Onetitle {
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 20rpx;
+}

@@ -1,0 +1,10 @@
+{
+    "usingComponents": {
+        "mp-icon": "weui-miniprogram/icon/icon"
+    },
+    "navigationBarBackgroundColor": "#F2F2F2",
+    "enablePullDownRefresh":true,
+    "navigationBarTitleText":"帖子详情",
+    "navigationBarTextStyle":"black",
+    "backgroundTextStyle": "dark"
+  }

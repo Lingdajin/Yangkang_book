@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view style="margin-top:20px;">
+
+<view style="text-align:center;">
+<p style="font-size:30px;">ESP远程提醒设置</p>
+
+  <view style="margin-top:30px;">  <p>设备状态：</p> 
+  <text style="color: {{statusColor}};">{{device_status}}</text>
+  </view>
+
+  <view style="margin-top:0px;">  <p>ESP目前提醒时间：{{powerstatus}}</p> </view>
+
+  
+    <view style="font-size: 50rpx;margin-top: 50rpx;">
+      点击下方以更改提醒时间
+    </view>
+    
+        <picker mode="time" value="{{time}}" start="00:01" end="23:59" bindchange="bindTimeChange">
+        <view class="flex">
+            <view class="choose">{{time1}}</view>
+            <view class="maohao">:</view>
+            <view class="choose">{{time2}}</view>
+        </view>
+        </picker>
+    
+    
+
+    <view style="margin-top:30px;">
+
+  <view style="margin-top:30px;"> <button bindtap="openclick" >发送</button>   </view>
+        
+
+       
+    
+    </view>
+</view>
+</view>

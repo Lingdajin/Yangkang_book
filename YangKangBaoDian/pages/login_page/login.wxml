@@ -1,0 +1,21 @@
+<!--pages/login/login.wxml-->
+<view class='top_tip'>
+        <view class="welcome">欢迎您来到阳康宝典</view>
+        <view class="welcome">一个病友交流论坛</view>
+        <form catchsubmit="formSubmit">
+            <view class='login'>
+            
+                <view class="user">用户名
+                    <view class="hold"><input class="input" name='username' type='text' placeholder='请输入用户名'></input></view>
+                </view>
+                <view class="password">密码
+                    <view class="hold2"><input class="input" name='password' password placeholder='请输入密码'></input></view>
+                </view>
+        </view>
+            <button style="width:80vw" class="click" plain="true" type="default" form-type='submit'>登录</button>
+            <button style="width:80vw" class="click" plain="true" type="default" bindtap="youke">游客登录</button>
+        </form>
+</view>
+    <view class="reg" bindtap="toReg">没有账号？</view>
+
+    

@@ -1,0 +1,14 @@
+<!--pages/demo02/text/text.wxml-->
+<view class='container'>
+    <view class="comment-list">
+        <block wx:for="{{array}}">
+            <view class="line"></view>
+            <navigator url='/pages/oneshudong_page/oneshudong?id={{item.id}}'>
+                <view class="comment-item">
+                    <view class="Onetitle">{{item.title}}</view>
+                    <view class="Oneauthor">{{item.author}}</view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+</view>

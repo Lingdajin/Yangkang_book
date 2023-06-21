@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/login_page/login",
+        "pages/allshudong_page/allshudong",
+        "pages/myinfo_page/myinfo",
+        "pages/clock/index",
+        "pages/post_page/post",
+        "pages/oneshudong_page/oneshudong",
+        "pages/register_page/home1"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+
+    "useExtendedLib": {
+        "kbone": true,
+        "weui": true
+    },
+
+    "tabBar": {
+        "color": "#000000",
+        "selectedColor": "#1296db",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/allshudong_page/allshudong",
+                "iconPath": "/images/guangchang.png",
+                "selectedIconPath": "/images/guangchang.png",
+                "text": "广场"
+            },
+            {
+                "pagePath": "pages/post_page/post",
+                "iconPath": "/images/fabu.png",
+                "selectedIconPath": "/images/fabu.png",
+                "text": "发布"
+            },
+            {
+                "pagePath": "pages/myinfo_page/myinfo",
+                "iconPath": "/images/wode.png",
+                "selectedIconPath": "/images/wode.png",
+                "text": "我的"
+            }
+        ]
+    }
+}

@@ -1,0 +1,146 @@
+/* pages/demo02/text/text.wxss */
+page{
+    background-color: #EFEFEF;
+  }
+/* text{
+    margin: 15rpx;
+    padding: 15rpx;
+    border: 1rpx solid silver;
+    display: block;
+    font-size: 10pt;
+  } */
+
+  .tiezi{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: space-between;
+    font-size: 34rpx;
+    padding: 15rpx;
+  }
+
+  .Theauthor{
+      font-size: 18px;
+      color: blue;
+      margin-left: 20rpx;
+  }
+
+  .Thetitle{
+    width: 85%;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 20rpx;
+  }
+
+  .Thesummary{
+      margin-top: 20rpx;
+    font-size: 14px;
+    color: black;
+    margin-left: 35rpx;
+  }
+
+  .delete{
+      margin-right: 10rpx;
+  }
+
+  .view_fengexian {
+    margin-top: 20rpx;
+    margin-bottom: 30rpx;
+    width: 96%;
+    height: 50rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0rpx 2% 0rpx 2%;
+  }
+  
+  /* 两个view的样式 */
+  .view_fengexian view {
+    width: 40%;
+    height: 2rpx;
+    background: linear-gradient(to right, #ead6ee, #a0f1ea);
+  }
+  
+  /* 字体的样式 */
+  .text_fengexian {
+    font-size: 25rpx;
+    color: rgba(105, 112, 112, 0.986);
+    margin: 0rpx 2% 0rpx 2%;
+  }
+
+  .line{
+    width:100%;
+    height:2rpx;
+    background:#aaa;
+    }
+
+.comment-item {
+    margin-bottom: 5rpx;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10rpx;
+}
+
+.comment-list {
+    margin-top: 20rpx;
+    margin-bottom: 90rpx;
+}
+
+.comment-author {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 15rpx;
+    color: blue;
+}
+  
+.comment-content {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 35rpx;
+    width:85%;
+}
+
+.col{
+    overflow:hidden;
+    height: 90rpx;
+	margin-bottom:0;
+	background:gray;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	display:flex;
+	justify-content:left;
+}
+
+.search{
+    background: mintcream;
+    height:80rpx;
+    width:80%;
+    margin-left:10rpx ;
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;
+}
+
+.input{
+    height:80rpx;
+    min-height: 80rpx;
+    font-size: 40rpx;
+}
+
+.sendButton{
+    width:17%;
+    height:70rpx;
+    /* line-height: 50rpx; */
+    border-radius:10rpx;
+    margin:auto;
+    margin-top:10rpx;
+    margin-bottom:10rpx;
+    margin-left: 8rpx;
+    margin-right: 8rpx;
+    background-color: #0077ff;
+    text-align: center;
+    color:white;
+    font-size: 33rpx;
+}
+  

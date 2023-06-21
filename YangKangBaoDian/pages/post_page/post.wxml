@@ -1,0 +1,7 @@
+<!--pages/commit/commit.wxml-->
+<text class="text">标题</text>
+<input placeholder="输入标题" class='down_line' placeholder-style="color:#888888; font-size:38rpx;" bindinput="bindText"></input>
+<view class="textarea">
+    <textarea placeholder="发一条帖子吧~" placeholder-style="color:#888888; font-size:38rpx;" class='textinput' bindinput="bindTextAreaBlur"></textarea>
+</view>
+<view id="btn" class="click" bindtap='send'>发送</view>

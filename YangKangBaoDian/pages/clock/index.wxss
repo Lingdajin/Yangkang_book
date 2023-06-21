@@ -1,0 +1,28 @@
+.flex{
+    margin-top:70rpx;
+    display: flex;
+}
+
+
+.choose{
+    width:40%;
+    height:250rpx;
+    line-height: 100rpx;
+    border-radius:10rpx;
+
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: rgb(156, 233, 149);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 200rpx;
+}
+
+.maohao{
+    font-size: 200rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

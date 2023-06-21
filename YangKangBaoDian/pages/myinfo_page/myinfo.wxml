@@ -1,0 +1,23 @@
+<!--pages/mine/mine.wxml-->
+<!-- <view class="page">
+  <image class="image" src="/images/myImage.png"></image>
+</view> -->
+<view class='hello'>
+    <text>{{welcome}}~</text>
+</view>
+<view style="margin-top: 100px;">
+    <view class="info" bindtap="login">
+        <mp-icon type="outline" icon="me" color="black" size="{{40}}"></mp-icon>
+        <view style="font-size: 25px;">用户登录</view>
+    </view>
+    <view class="info" bindtap="quit">
+        <mp-icon type="outline" icon="close" color="black" size="{{40}}"></mp-icon>
+        <view style="font-size: 25px;">用户登出</view>
+    </view>
+    <view class="info" bindtap="esp">
+        <mp-icon type="outline" icon="link" color="black" size="{{40}}"></mp-icon>
+        <view style="font-size: 25px;">ESP定时器</view>
+    </view>
+</view>
+
+
