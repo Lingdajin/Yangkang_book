@@ -1,12 +1,16 @@
 # **Yangkang_book**
 A bbs based on miniprogram
+
 ---
 
 
 
 ##硬件准备
+
 *ESP8266NodeMcu
+
 *oled液晶屏
+
 *按钮
 *有源蜂鸣器
 *杜邦线若干
