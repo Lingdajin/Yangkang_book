@@ -25,6 +25,7 @@ A bbs based on miniprogram
 2. 将ESP硬件按图示连接
 
 ![image](https://github.com/Lingdajin/Yangkang_book/blob/main/handwriting.PNG)
+
 4. 将ESP8266与电脑连接，下载arduinoIDE并连接
 5. 用IDE打开下载的Timer.ino文件，对其中SSID和PASSWORD修改为自己的WIFI名和密码
 6. 点击上传，注意，对ESP8266进行烧录时需要长按FLASH并按一下RST，烧录过程中保持FLASH按钮不松
