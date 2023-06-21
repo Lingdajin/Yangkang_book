@@ -22,5 +22,5 @@ A bbs based on miniprogram
 ---
 ## 构建步骤
 1. 使用微信小程序开发者工具导入YangKangBaoDian小程序，先放在一边，暂时使用不到
-2.
+2. 将ESP硬件按图示连接
 
